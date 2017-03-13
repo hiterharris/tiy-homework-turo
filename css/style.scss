@@ -1,0 +1,72 @@
+nav {
+  background:#231f20;
+  overflow:hidden;
+
+  .logo {
+    padding-left: 250px;
+    padding-top:15px;
+    float:left;
+  }
+
+  .menu {
+    float:right;
+    color:white;
+    font-size: 13px;
+    font-family:sans-serif;
+    margin-right:275px;
+    margin-bottom:18px;
+    margin-top:8px;
+
+    a {
+      text-decoration: none;
+      color:white;
+    }
+
+    li {
+      list-style:none;
+      float:left;
+      padding-left:20px;
+
+      button {
+        background:black;
+        color:white;
+        border:1px solid white;
+        height:26px;
+        padding:0 10px;
+      }
+    }
+  }
+}
+
+.learn-more, .log-in, .sign-up {
+  padding-top:5px;
+}
+
+
+.dropdown {
+  display:none;
+  background:white;
+  color:black;
+}
+
+.hero {
+  height:600px;
+  width:100%;
+  background-image: url('https://hawkins-staging.herokuapp.com/public/img/home/winter-mountains@2x.jpg');
+  overflow:hidden;
+  color:white;
+  text-align:center;
+  padding-top:200px;
+
+  h1 {
+    font-size:70px;
+  }
+
+  h3 {
+    font-size:30px;
+  }
+
+  .title {
+    line-height: .25;
+  }
+}
